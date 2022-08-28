@@ -22,7 +22,7 @@ namespace Oop.E2
             Class user = new Class();
             user.userName = txtUserName.Text;
             user.passWord = txtPassWord.Text;
-            MessageBox.Show($"Sayın {user.userName} hoşgeldiniz. {user.passWord} şifresi ile giriş yaptınız.");
-        }
+            string dateTime = DateTime.Now.ToString();
+            user.Login(dateTime);
     }
 }
