@@ -1,0 +1,11 @@
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\bin\Debug\Oop.E2.exe.config
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\bin\Debug\Oop.E2.exe
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\bin\Debug\Oop.E2.pdb
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.csproj.AssemblyReference.cache
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.csproj.SuggestedBindingRedirects.cache
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.Form1.resources
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.Properties.Resources.resources
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.csproj.GenerateResource.cache
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.csproj.CoreCompileInputs.cache
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.exe
+C:\Users\SLM\Desktop\GitHub projects\Oop.E2\Oop.E2\obj\Debug\Oop.E2.pdb
