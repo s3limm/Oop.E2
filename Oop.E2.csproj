@@ -46,18 +46,28 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Class%27s\Class.cs" />
-    <Compile Include="Form%27s\Form1.cs">
+    <Compile Include="Classs\Class.cs" />
+    <Compile Include="Classs\wllf_prop.cs" />
+    <Compile Include="Forms\Form1.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form%27s\Form1.Designer.cs">
+    <Compile Include="Forms\Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Forms\Wolfman.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Forms\Wolfman.Designer.cs">
+      <DependentUpon>Wolfman.cs</DependentUpon>
     </Compile>
     <Compile Include="obj\Debug\.NETFramework,Version=v4.7.2.AssemblyAttributes.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Form%27s\Form1.resx">
+    <EmbeddedResource Include="Forms\Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Forms\Wolfman.resx">
+      <DependentUpon>Wolfman.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="obj\Debug\Oop.E2.Form1.resources" />
     <EmbeddedResource Include="obj\Debug\Oop.E2.Properties.Resources.resources" />
@@ -69,6 +79,7 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
     <None Include=".vs\Oop.E2\FileContentIndex\14a3b04a-40bc-4fa0-a7c6-371c3b2aa097.vsidx" />
     <None Include=".vs\Oop.E2\FileContentIndex\3f0a29ef-40f8-4e58-9efa-338074377168.vsidx" />
@@ -101,6 +112,7 @@
     <Content Include="obj\Debug\Oop.E2.csproj.FileListAbsolute.txt" />
     <Content Include="obj\Debug\Oop.E2.exe" />
     <Content Include="obj\Debug\Oop.E2.pdb" />
+    <Content Include="Pictures\indir.jpeg" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include=".vs\Oop.E2\FileContentIndex\merges\" />
