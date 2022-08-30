@@ -23,6 +23,7 @@ namespace Oop.E2
             user.userName = txtUserName.Text;
             user.passWord = txtPassWord.Text;
             string dateTime = DateTime.Now.ToString();
-            user.Login(dateTime);
+            user.Login();
+        }
     }
 }
