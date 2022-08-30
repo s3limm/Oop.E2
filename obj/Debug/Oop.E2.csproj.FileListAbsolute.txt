@@ -17,3 +17,6 @@ C:\Github\Oop.E2\obj\Debug\Oop.E2.Form1.resources
 C:\Github\Oop.E2\obj\Debug\Oop.E2.Properties.Resources.resources
 C:\Github\Oop.E2\obj\Debug\Oop.E2.csproj.GenerateResource.cache
 C:\Github\Oop.E2\obj\Debug\Oop.E2.csproj.CoreCompileInputs.cache
+C:\Github\Oop.E2\bin\Debug\Oop.E2.exe.config
+C:\Github\Oop.E2\bin\Debug\Oop.E2.exe
+C:\Github\Oop.E2\bin\Debug\Oop.E2.pdb

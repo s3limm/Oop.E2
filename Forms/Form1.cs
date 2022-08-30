@@ -19,11 +19,13 @@ namespace Oop.E2
 
         private void btnLogin_Click(object sender, EventArgs e)
         {
-            Class user = new Class();
-            user.userName = txtUserName.Text;
-            user.passWord = txtPassWord.Text;
-            string dateTime = DateTime.Now.ToString();
-            user.Login();
+            User user = new User();
+            user.userName1 = txtUserName.Text;
+            user.passWord1 = txtPassWord.Text;
+            
+            string loginDate = DateTime.Now.ToString();
+
+            user.Login(loginDate);
         }
     }
 }
