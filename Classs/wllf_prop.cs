@@ -14,9 +14,35 @@ namespace Oop.E2.Classs
         public int damage { get; set; }
         public string branch { get; set; }
 
+        //{ "Assasin", "Warior", "Wizard", "Wolf Man", "Archar" };
+
         public void Attack()
         {
+            damage = 0;
+            Random rndmDamage = new Random();
 
+            if (branch == "Assasin")
+            {
+                damage += 60;
+            }
+            else if (branch == "Warior")
+            {
+                damage += rndmDamage.Next(45, 61);
+            }
+
+            else if (branch == "Wizard")
+            {
+                damage += rndmDamage.Next(50, 76);
+            }
+
+            else if (branch == "Wolf Man")
+            {
+                damage += 65;
+            }
+            else
+            {
+                damage += rndmDamage.Next(30, 61);
+            }
         }
     }
 }

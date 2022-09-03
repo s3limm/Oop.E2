@@ -86,6 +86,7 @@
             // 
             // txtUserName
             // 
+            this.txtUserName.Enabled = false;
             this.txtUserName.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.txtUserName.Location = new System.Drawing.Point(169, 56);
             this.txtUserName.Name = "txtUserName";
@@ -94,6 +95,7 @@
             // 
             // cmbRace
             // 
+            this.cmbRace.Enabled = false;
             this.cmbRace.FormattingEnabled = true;
             this.cmbRace.Location = new System.Drawing.Point(169, 105);
             this.cmbRace.Name = "cmbRace";
@@ -103,6 +105,7 @@
             // 
             // cmbBranch
             // 
+            this.cmbBranch.Enabled = false;
             this.cmbBranch.FormattingEnabled = true;
             this.cmbBranch.Location = new System.Drawing.Point(169, 152);
             this.cmbBranch.Name = "cmbBranch";
@@ -112,6 +115,7 @@
             // 
             // cmbWeapon
             // 
+            this.cmbWeapon.Enabled = false;
             this.cmbWeapon.FormattingEnabled = true;
             this.cmbWeapon.Location = new System.Drawing.Point(169, 193);
             this.cmbWeapon.Name = "cmbWeapon";
@@ -121,6 +125,7 @@
             // 
             // btnSelect
             // 
+            this.btnSelect.Enabled = false;
             this.btnSelect.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnSelect.Location = new System.Drawing.Point(376, 170);
             this.btnSelect.Name = "btnSelect";
@@ -128,9 +133,11 @@
             this.btnSelect.TabIndex = 4;
             this.btnSelect.Text = "Seç";
             this.btnSelect.UseVisualStyleBackColor = true;
+            this.btnSelect.Click += new System.EventHandler(this.btnSelect_Click);
             // 
             // pictureBox1
             // 
+            this.pictureBox1.Enabled = false;
             this.pictureBox1.Image = global::Oop.E2.Properties.Resources.indir;
             this.pictureBox1.Location = new System.Drawing.Point(550, 73);
             this.pictureBox1.Name = "pictureBox1";
@@ -138,19 +145,23 @@
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
             this.pictureBox1.TabIndex = 5;
             this.pictureBox1.TabStop = false;
+            this.pictureBox1.Visible = false;
             // 
             // lblHealth
             // 
             this.lblHealth.BackColor = System.Drawing.Color.Red;
             this.lblHealth.Cursor = System.Windows.Forms.Cursors.Default;
+            this.lblHealth.Enabled = false;
             this.lblHealth.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.lblHealth.Location = new System.Drawing.Point(547, 37);
             this.lblHealth.Name = "lblHealth";
             this.lblHealth.Size = new System.Drawing.Size(200, 24);
             this.lblHealth.TabIndex = 6;
+            this.lblHealth.Visible = false;
             // 
             // btnAttack
             // 
+            this.btnAttack.Enabled = false;
             this.btnAttack.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(162)));
             this.btnAttack.Location = new System.Drawing.Point(169, 276);
             this.btnAttack.Name = "btnAttack";
@@ -158,6 +169,7 @@
             this.btnAttack.TabIndex = 7;
             this.btnAttack.Text = "Saldır";
             this.btnAttack.UseVisualStyleBackColor = true;
+            this.btnAttack.Click += new System.EventHandler(this.btnAttack_Click);
             // 
             // btnNewGame
             // 
@@ -168,6 +180,7 @@
             this.btnNewGame.TabIndex = 8;
             this.btnNewGame.Text = "Yeni Oyun";
             this.btnNewGame.UseVisualStyleBackColor = true;
+            this.btnNewGame.Click += new System.EventHandler(this.btnNewGame_Click);
             // 
             // Wolfman
             // 

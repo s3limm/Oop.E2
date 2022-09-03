@@ -1,4 +1,5 @@
-﻿using System;
+﻿using Oop.E2.Classs;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
@@ -20,7 +21,7 @@ namespace Oop.E2.Forms
         string[] weapons = { "ok", "bıçak", "silah", "büyü", "pençe" };
         string[] race = { "Human", "Wolf" };
         string[] branch = { "Assasin", "Warior", "Wizard", "Wolf Man", "Archar" };
-
+        Account account = new Account();
         private void comboBox1_SelectedIndexChanged(object sender, EventArgs e) //race
         {
             cmbBranch.Items.Clear();
@@ -63,7 +64,7 @@ namespace Oop.E2.Forms
                 cmbWeapon.Items.Add(weapons[4]);
             }
 
-            else 
+            else
             {
                 cmbWeapon.Items.Add(weapons[0]);
             }
@@ -79,6 +80,48 @@ namespace Oop.E2.Forms
         {
             cmbRace.Items.Add(race[0]);
             cmbRace.Items.Add(race[1]);
+        }
+
+        private void btnSelect_Click(object sender, EventArgs e)
+        {
+            txtUserName.Enabled = false;
+            cmbRace.Enabled = false;
+            cmbBranch.Enabled = false;
+            cmbWeapon.Enabled = false;
+            btnAttack.Enabled = true;
+            pictureBox1.Visible = true;
+            lblHealth.Visible = true;
+        }
+
+        private void btnNewGame_Click(object sender, EventArgs e)
+        {
+            btnSelect.Enabled = true;
+            txtUserName.Enabled = true;
+            txtUserName.Focus();
+            cmbRace.Enabled = true;
+            cmbBranch.Enabled = true;
+            cmbWeapon.Enabled = true;
+            pictureBox1.Visible = false;
+            lblHealth.Visible = false;
+        }
+
+        private void btnAttack_Click(object sender, EventArgs e)
+        {
+            account.Attack();
+            if (lblHealth.Width <= 300)
+            {
+                lblHealth.Width -= account.damage;
+                MessageBox.Show($"Sevgili {txtUserName.Text},\n {cmbBranch.Text} karakteriyle düşmana {account.damage} hasar verdiniz.");
+            }
+
+            if (lblHealth.Width == 0) 
+            {
+                MessageBox.Show("Bravo Şef.Düşmanı alt ettin.");
+                btnAttack.Enabled = false;
+                pictureBox1.Visible = false;
+                lblHealth.Visible = false;
+            }
+
         }
     }
 }
